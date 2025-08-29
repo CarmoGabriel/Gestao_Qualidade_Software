@@ -32,7 +32,6 @@ public class Musica {
         System.out.print(" Tocando: " + this.titulo +" |> ");
 
         for (int i = 0; i < 30; i++) {
-
             System.out.print("*");
             try {
                 Thread.sleep(1000);
