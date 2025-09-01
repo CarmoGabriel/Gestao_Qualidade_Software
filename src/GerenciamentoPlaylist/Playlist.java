@@ -19,7 +19,7 @@ public class Playlist {
     //----------------------- METODOS ESPECIAIS -----------------------------------
     public String adicionarMusica(Musica musica){
         if ( this.listaMusicas.contains(musica) ) {
-             return "Musica já existente na playlist";
+             return "Musica já existente na playlist!";
 
         } else {
             this.listaMusicas.add(musica);
@@ -54,6 +54,7 @@ public class Playlist {
     }
 
     public void tocarMusicasPlaylist(){
+        System.out.println("tocando a playslist "+ this.nomePlaylist);
         for (int i = 0; i < this.listaMusicas.size(); i++) {
             this.listaMusicas.get(i).tocarMusica();
         }

@@ -14,7 +14,7 @@ public class teste {
 
         listinha.lista= listaTEste;
 
-        for (int i = 0; i < 4; i++) {
+       /* for (int i = 0; i < 4; i++) {
 
             System.out.print("digita o inteiro ai: ");
             Integer var= leitor.nextInt();
@@ -25,7 +25,12 @@ public class teste {
         for (int i = 0; i < listaTEste.size(); i++) {
 
             System.out.println(listaTEste.get(i));
-        }
+        }*/
+       do {
+
+        String teste= leitor.nextLine();
+        System.out.println(teste);
+       } while (10 <9 );
 
     }
 }

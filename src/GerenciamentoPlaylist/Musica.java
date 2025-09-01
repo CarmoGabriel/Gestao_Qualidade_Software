@@ -28,7 +28,6 @@ public class Musica {
     //-------------------------METODOS ESPECIAIS
     public void tocarMusica(){
 
-        System.out.println("---------------------------------------------------------------------------");
         System.out.print(" Tocando: " + this.titulo +" |> ");
 
         for (int i = 0; i < 30; i++) {
@@ -42,7 +41,7 @@ public class Musica {
 
         }
         System.out.println(" "+ this.duracaoMinutos + "min");
-        System.out.println("---------------------------------------------------------------------------");
+        System.out.println("-------------------------------------------------");
     }
 
 }
