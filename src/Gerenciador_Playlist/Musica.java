@@ -1,5 +1,5 @@
-package GerenciamentoPlaylist;
-import java.util.ArrayList;
+package Gerenciador_Playlist;
+
 public class Musica {
 
      private String titulo;

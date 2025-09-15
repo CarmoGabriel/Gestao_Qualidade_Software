@@ -1,6 +1,5 @@
-package GerenciamentoPlaylist;
+package Gerenciador_Playlist;
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Playlist {
 
